@@ -1,8 +1,8 @@
-//         Generic gc = new Generic(10,20);
-//         System.out.println(gc.getName());
-//         Generic gc1 = new Generic("swaroop",1000000);
-//         System.out.println(gc1.getName());
-//         }
+ //        Generic <Integer> gc = new Generic<Integer>(10,20);
+ //        System.out.println(gc.getName());
+
+ //        Generic < String >gc1 = new Generic<String>("swaroop","Dada");
+ //        System.out.println(gc1.getName());
 
 public class Generic <T>{
     T name;
